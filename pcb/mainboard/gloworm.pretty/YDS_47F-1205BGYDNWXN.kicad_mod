@@ -1,4 +1,4 @@
-(module YDS_47F-1205BGYDNWXN (layer F.Cu) (tedit 5EEB467F)
+(module YDS_47F-1205BGYDNWXN (layer F.Cu) (tedit 5F05CD29)
   (fp_text reference J** (at 0.055 -7.25) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -31,5 +31,10 @@
   (pad 4 thru_hole circle (at 0.69 2.54) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 1.96 0) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 3.23 2.54) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask))
-  (pad 1 thru_hole rect (at 4.5 0) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask))
+  (pad 1 thru_hole roundrect (at 4.5 0) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
+  (model ${KIPRJMOD}/gloworm.3dshapes/47F.STEP
+    (offset (xyz 0 -6.85 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 180 0))
+  )
 )

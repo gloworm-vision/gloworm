@@ -1,7 +1,44 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AOZ1280CI
+D 1.2 A Simple Buck Regulator, 3-26V input, 1.5Mhz
+K switching buck converter
+F http://aosmd.com/res/data_sheets/AOZ1280CI.pdf
+$ENDCMP
+#
+$CMP AOZ1282CI
+D 1.2 A Simple Buck Regulator, 4.5-36V input, 450kHz
+K switching buck converter
+F http://aosmd.com/res/data_sheets/AOZ1282CI.pdf
+$ENDCMP
+#
+$CMP AOZ1282CI-1
+D 600 mA Simple Buck Regulator, 4.5-36V input, 1MHz
+K switching buck converter
+F http://www.aosmd.com/res/data_sheets/AOZ1282CI-1.pdf
+$ENDCMP
+#
+$CMP AP2171W
+F https://www.diodes.com/assets/Datasheets/AP2161.pdf
+$ENDCMP
+#
+$CMP BUCK_5V
+D Power symbol creates a global label with name "BUCK_5V"
+K power-flag
+$ENDCMP
+#
 $CMP FSUSB42MUX
 F IPC-7351B
+$ENDCMP
+#
+$CMP LM66100
+F https://www.ti.com/lit/ds/symlink/lm66100.pdf
+$ENDCMP
+#
+$CMP PAM2306AYPKE
+D 1A, Dual Step-Down DC/DC-Converter, Out1 3.3v, Out2 1.8v, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 3.3v, Out2 1.8v
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
 $ENDCMP
 #
 $CMP RaspberryPi-CM3
@@ -14,6 +51,12 @@ $CMP RaspberryPi-CM3+
 D BCM2837B0 Broadcom 1.2 GHZ single core, 1 GB RAM 8/16/32 GB eMMC, industrial SoM computer
 K raspberry pi compute module
 F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM3plus_1p0.pdf
+$ENDCMP
+#
+$CMP TLV62130
+D 3A Step-Down Converter with DCS-Control, Adjustable Output Voltage, 3-17V Input Voltage, QFN-16
+K step-down dcdc
+F http://www.ti.com/lit/ds/symlink/tps62130.pdf
 $ENDCMP
 #
 $CMP USB_A
@@ -32,6 +75,11 @@ $CMP USB_B_Mini
 D USB Mini Type B connector
 K connector USB mini
 F ~
+$ENDCMP
+#
+$CMP VUSB
+D Power symbol creates a global label with name "VUSB"
+K power-flag
 $ENDCMP
 #
 $CMP YDS_47F-1205BGYDNW2NL
