@@ -1,0 +1,59 @@
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# Format documentation: http://kicad-pcb.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+*csv#
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+# Gerbers
+*.zip
+*gerber*
+out/
+out-stencil/
+
+# Rescues
+*-rescue.dcm
+*-rescue.lib
+
+# Exported Board 3D files
+pcb/mainboard/gloworm.wrl
+pcb/mainboard/gloworm.step
+pcb/ledboard/ledboard.wrl
+pcb/ledboard/ledboard.step
+
+# TE DDR2 SODIMM connector STEP - not sure if I can redistribute it
+# Download here: https://www.te.com/usa-en/product-1565917-4.html
+pcb/mainboard/gloworm.3dshapes/c-1565917-4-d1-3d.stp
+
+# TE FPC
+# Download here: https://www.te.com/usa-en/product-1-84953-5.html
+pcb/mainboard/gloworm.3dshapes/c-1-84953-5-a-3d.stp
+
+# Vertical USB
+# Download here: https://www.snapeda.com/parts/USB-A1SSW6/On%20Shore/view-part/?ref=digikey&welcome=home
+pcb/mainboard/gloworm.3dshapes/USB-A1SSW6--3DModel-STEP-56544.STEP
+
+# Micro USB
+# Download here: https://www.snapeda.com/parts/10118194-0001LF/Amphenol%20ICC/view-part/?welcome=home
+pcb/mainboard/gloworm.3dshapes/10118194-0001LF--3DModel-STEP-56544.STEP

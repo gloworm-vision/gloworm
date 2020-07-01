@@ -1,0 +1,41 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FSUSB42MUX
+F IPC-7351B
+$ENDCMP
+#
+$CMP RaspberryPi-CM3
+D BCM2837 Broadcom 1.2 GHZ single core, 1 GB RAM 4 GB eMMC,  industrial SoM computer
+K raspberry pi compute module
+F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_1p0.pdf
+$ENDCMP
+#
+$CMP RaspberryPi-CM3+
+D BCM2837B0 Broadcom 1.2 GHZ single core, 1 GB RAM 8/16/32 GB eMMC, industrial SoM computer
+K raspberry pi compute module
+F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM3plus_1p0.pdf
+$ENDCMP
+#
+$CMP USB_A
+D USB Type A connector
+K connector USB
+F  ~
+$ENDCMP
+#
+$CMP USB_B_Micro
+D USB Micro Type B connector
+K connector USB micro
+F ~
+$ENDCMP
+#
+$CMP USB_B_Mini
+D USB Mini Type B connector
+K connector USB mini
+F ~
+$ENDCMP
+#
+$CMP YDS_47F-1205BGYDNW2NL
+F https://datasheet.lcsc.com/szlcsc/1811141142_Shanghai-YDS-Tech-47F-1205BGYDNW2NL_C240186.pdf
+$ENDCMP
+#
+#End Doc Library

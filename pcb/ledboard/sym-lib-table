@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ledboard)(type Legacy)(uri ${KIPRJMOD}/ledboard.lib)(options "")(descr ""))
+)
