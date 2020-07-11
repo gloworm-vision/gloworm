@@ -35,6 +35,12 @@ $CMP LM66100
 F https://www.ti.com/lit/ds/symlink/lm66100.pdf
 $ENDCMP
 #
+$CMP NCP1529A
+D 1.7MHz, 1A, High Efficiency, Low Ripple, Adjustable Output Voltage Step-down Converter, SOT-23-5
+K Step-Down Buck DC-DC Regulator Adjustable
+F https://www.onsemi.com/pub/Collateral/NCP1529-D.PDF
+$ENDCMP
+#
 $CMP PAM2306AYPKE
 D 1A, Dual Step-Down DC/DC-Converter, Out1 3.3v, Out2 1.8v, 1.5MHz, W-DFN3x3
 K STEP-DOWN Dual channel 1A Out1 3.3v, Out2 1.8v
@@ -57,6 +63,18 @@ $CMP TLV62130
 D 3A Step-Down Converter with DCS-Control, Adjustable Output Voltage, 3-17V Input Voltage, QFN-16
 K step-down dcdc
 F http://www.ti.com/lit/ds/symlink/tps62130.pdf
+$ENDCMP
+#
+$CMP TLV62568DBV
+D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-23-5
+K Step-Down Buck DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tlv62568.pdf
+$ENDCMP
+#
+$CMP TLV62569DBV
+D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5
+K Step-Down Buck DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tlv62569.pdf
 $ENDCMP
 #
 $CMP USB_A
