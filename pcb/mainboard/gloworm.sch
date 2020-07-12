@@ -3789,13 +3789,13 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG0107
 U 1 1 613119CC
-P 3750 6250
-F 0 "#FLG0107" H 3750 6325 50  0001 C CNN
-F 1 "PWR_FLAG" V 3750 6378 50  0000 L CNN
-F 2 "" H 3750 6250 50  0001 C CNN
-F 3 "~" H 3750 6250 50  0001 C CNN
-	1    3750 6250
-	0    1    1    0   
+P 4050 6200
+F 0 "#FLG0107" H 4050 6275 50  0001 C CNN
+F 1 "PWR_FLAG" H 4050 6373 50  0000 C CNN
+F 2 "" H 4050 6200 50  0001 C CNN
+F 3 "~" H 4050 6200 50  0001 C CNN
+	1    4050 6200
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C20
@@ -3934,8 +3934,6 @@ F 3 "" H 3700 6200 50  0001 C CNN
 	1    3700 6200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3750 6250 3700 6250
 Wire Wire Line
 	8300 4750 8700 4750
 Wire Wire Line
@@ -4319,4 +4317,27 @@ F 7 "Yes" H 7700 1700 50  0001 C CNN "Generic OK"
 	1    7700 1700
 	-1   0    0    1   
 $EndComp
+$Comp
+L Device:C_Small C47
+U 1 1 63D65E6B
+P 4050 6400
+F 0 "C47" H 3958 6354 50  0000 R CNN
+F 1 "DNP" H 3958 6445 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4050 6400 50  0001 C CNN
+F 3 "~" H 4050 6400 50  0001 C CNN
+	1    4050 6400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 6250 4050 6200
+Wire Wire Line
+	3700 6250 4050 6250
+Wire Wire Line
+	4050 6250 4050 6300
+Connection ~ 4050 6250
+Wire Wire Line
+	4050 6500 4050 6850
+Wire Wire Line
+	4050 6850 3700 6850
+Connection ~ 3700 6850
 $EndSCHEMATC
