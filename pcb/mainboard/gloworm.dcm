@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AGND
+D Power symbol creates a global label with name "AGND" , analog ground
+K power-flag
+$ENDCMP
+#
 $CMP AOZ1280CI
 D 1.2 A Simple Buck Regulator, 3-26V input, 1.5Mhz
 K switching buck converter
