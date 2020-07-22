@@ -62,4 +62,7 @@ pcb/mainboard/gloworm.3dshapes/USB-A1SSW6--3DModel-STEP-56544.STEP
 # Download here: https://www.snapeda.com/parts/10118194-0001LF/Amphenol%20ICC/view-part/?welcome=home
 pcb/mainboard/gloworm.3dshapes/10118194-0001LF--3DModel-STEP-56544.STEP
 
+# Molex Picoblade
+pcb/mainboard/gloworm.3dshapes/530470210.stp
+
 .vscode/settings.json
